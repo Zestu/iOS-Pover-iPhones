@@ -1,2 +1,2 @@
 # iOS-Pover-iPhones
-View like Popover controller for iPhones. Currently in developing stage.  Written on Objective-C. 
+View like a popover controller anf can be presented on iPhones. Currently in developing stage.  Written on Objective-C. 
