@@ -1,2 +1,2 @@
 # iOS-Pover-iPhones
-Objective-C, popover for iPhones
+View like Popover controller for iPhones. Currently in developing stage.  Written on Objective-C. 
