@@ -88,7 +88,7 @@ static CGFloat const OFFSCREEN_OFFSET = 5.f; // Distance to offset popoverview i
     CGRect convertedFrame = [self convertRect:contentView.frame toView:self];
     
     self.popoverBack.frame = CGRectMake(self.popoverBack.frame.origin.x, self.popoverBack.frame.origin.y,
-                                        convertedFrame.size.width, convertedFrame.size.height + ARROW_HEIGTH);
+                                        convertedFrame.size.width, convertedFrame.size.height + ARROW_HEIGTH + BORDER / 2);
     
     contentView.layer.masksToBounds = YES;
     contentView.layer.cornerRadius = BORDER / 2;
@@ -214,7 +214,7 @@ static CGFloat const OFFSCREEN_OFFSET = 5.f; // Distance to offset popoverview i
         if (contentView != nil)
         {
             CGRect newFrame = contentView.frame;
-            newFrame.origin.y = ([self isArrowOnTop]) ? ARROW_HEIGTH + ARROW_BORDER / 2.f : 0;
+            newFrame.origin.y = ([self isArrowOnTop]) ? ARROW_HEIGTH : (BORDER + ARROW_BORDER) / 2;
             contentView.frame = newFrame;
         }
     } @catch (NSException *exception) {
@@ -246,8 +246,9 @@ static CGFloat const OFFSCREEN_OFFSET = 5.f; // Distance to offset popoverview i
 -(void)drawRect:(CGRect)rect
 {
     CGContextRef c = UIGraphicsGetCurrentContext();
-    CGColorRef col = [UIColor whiteColor].CGColor;
+    CGColorRef col = [UIColor greenColor].CGColor;
     CGColorRef bcol = [UIColor whiteColor].CGColor;
+    
     CGContextSetFillColorWithColor(c, col);
     CGContextSetStrokeColorWithColor(c, bcol);
     // Popover smooth rounded borders

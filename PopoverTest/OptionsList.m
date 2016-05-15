@@ -33,6 +33,7 @@
     self.dataSource = self;
     self.tintColor = [UIColor greenColor];
     self.scrollEnabled = NO;
+    self.backgroundColor = [UIColor clearColor];
     
     _data = @[@(1), @(2), @(3)];
     
