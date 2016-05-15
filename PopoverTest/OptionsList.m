@@ -68,6 +68,9 @@
         cell.separatorInset = UIEdgeInsetsMake(0, 0, 0, CGRectGetWidth(tableView.bounds));
     }
     
+    ((UILabel*)[cell viewWithTag:100]).text = [NSString stringWithFormat:@"Title %@", @(indexPath.row)];
+    cell.tintColor = [UIColor greenColor];
+    
     return cell;
 }
 

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Volumes/_work/iOS/Prototypes/PopoverTest/PopoverView.xcodeproj">
+      location = "self:/Volumes/_work/iOS/Libraries/iOS-Pover-iPhones/ZGPopoverView.xcodeproj">
    </FileRef>
 </Workspace>

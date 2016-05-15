@@ -13,13 +13,13 @@
 		15363BA91C617FB40088BD9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15363BA71C617FB40088BD9D /* Main.storyboard */; };
 		15363BAB1C617FB40088BD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15363BAA1C617FB40088BD9D /* Assets.xcassets */; };
 		15363BAE1C617FB40088BD9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15363BAC1C617FB40088BD9D /* LaunchScreen.storyboard */; };
-		15363BB71C6180610088BD9D /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15363BB61C6180610088BD9D /* PopoverView.m */; };
+		15363BB71C6180610088BD9D /* ZGPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15363BB61C6180610088BD9D /* ZGPopoverView.m */; };
 		1545D0F41C62F651001E85ED /* OptionItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1545D0F31C62F651001E85ED /* OptionItem.xib */; };
 		1545D0F71C62F735001E85ED /* OptionsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1545D0F61C62F735001E85ED /* OptionsList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		15363B9B1C617FB40088BD9D /* PopoverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopoverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15363B9B1C617FB40088BD9D /* ZGPopoverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPopoverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15363B9F1C617FB40088BD9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15363BA11C617FB40088BD9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15363BA21C617FB40088BD9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,8 +29,8 @@
 		15363BAA1C617FB40088BD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15363BAD1C617FB40088BD9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15363BAF1C617FB40088BD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15363BB51C6180610088BD9D /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
-		15363BB61C6180610088BD9D /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		15363BB51C6180610088BD9D /* ZGPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPopoverView.h; sourceTree = "<group>"; };
+		15363BB61C6180610088BD9D /* ZGPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPopoverView.m; sourceTree = "<group>"; };
 		1545D0F31C62F651001E85ED /* OptionItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionItem.xib; sourceTree = "<group>"; };
 		1545D0F51C62F735001E85ED /* OptionsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsList.h; sourceTree = "<group>"; };
 		1545D0F61C62F735001E85ED /* OptionsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsList.m; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		15363B9C1C617FB40088BD9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15363B9B1C617FB40088BD9D /* PopoverView.app */,
+				15363B9B1C617FB40088BD9D /* ZGPopoverView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,8 +75,8 @@
 				15363BAC1C617FB40088BD9D /* LaunchScreen.storyboard */,
 				15363BAF1C617FB40088BD9D /* Info.plist */,
 				15363B9E1C617FB40088BD9D /* Supporting Files */,
-				15363BB51C6180610088BD9D /* PopoverView.h */,
-				15363BB61C6180610088BD9D /* PopoverView.m */,
+				15363BB51C6180610088BD9D /* ZGPopoverView.h */,
+				15363BB61C6180610088BD9D /* ZGPopoverView.m */,
 				1545D0F31C62F651001E85ED /* OptionItem.xib */,
 				1545D0F51C62F735001E85ED /* OptionsList.h */,
 				1545D0F61C62F735001E85ED /* OptionsList.m */,
@@ -96,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15363B9A1C617FB40088BD9D /* PopoverView */ = {
+		15363B9A1C617FB40088BD9D /* ZGPopoverView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15363BB21C617FB40088BD9D /* Build configuration list for PBXNativeTarget "PopoverView" */;
+			buildConfigurationList = 15363BB21C617FB40088BD9D /* Build configuration list for PBXNativeTarget "ZGPopoverView" */;
 			buildPhases = (
 				15363B971C617FB40088BD9D /* Sources */,
 				15363B981C617FB40088BD9D /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = PopoverView;
+			name = ZGPopoverView;
 			productName = PopoverTest;
-			productReference = 15363B9B1C617FB40088BD9D /* PopoverView.app */;
+			productReference = 15363B9B1C617FB40088BD9D /* ZGPopoverView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15363B961C617FB40088BD9D /* Build configuration list for PBXProject "PopoverView" */;
+			buildConfigurationList = 15363B961C617FB40088BD9D /* Build configuration list for PBXProject "ZGPopoverView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15363B9A1C617FB40088BD9D /* PopoverView */,
+				15363B9A1C617FB40088BD9D /* ZGPopoverView */,
 			);
 		};
 /* End PBXProject section */
@@ -167,7 +167,7 @@
 				15363BA61C617FB40088BD9D /* ViewController.m in Sources */,
 				15363BA31C617FB40088BD9D /* AppDelegate.m in Sources */,
 				1545D0F71C62F735001E85ED /* OptionsList.m in Sources */,
-				15363BB71C6180610088BD9D /* PopoverView.m in Sources */,
+				15363BB71C6180610088BD9D /* ZGPopoverView.m in Sources */,
 				15363BA01C617FB40088BD9D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,7 @@
 				INFOPLIST_FILE = PopoverTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.outsource.PopoverView;
-				PRODUCT_NAME = PopoverView;
+				PRODUCT_NAME = ZGPopoverView;
 			};
 			name = Debug;
 		};
@@ -294,14 +294,14 @@
 				INFOPLIST_FILE = PopoverTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.outsource.PopoverView;
-				PRODUCT_NAME = PopoverView;
+				PRODUCT_NAME = ZGPopoverView;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15363B961C617FB40088BD9D /* Build configuration list for PBXProject "PopoverView" */ = {
+		15363B961C617FB40088BD9D /* Build configuration list for PBXProject "ZGPopoverView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15363BB01C617FB40088BD9D /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15363BB21C617FB40088BD9D /* Build configuration list for PBXNativeTarget "PopoverView" */ = {
+		15363BB21C617FB40088BD9D /* Build configuration list for PBXNativeTarget "ZGPopoverView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15363BB31C617FB40088BD9D /* Debug */,

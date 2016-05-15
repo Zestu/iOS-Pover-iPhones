@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "PopoverView.h"
+#import "ZGPopoverView.h"
 #import "OptionsList.h"
 
 @interface ViewController () <OptionsSelector>
 
-@property (strong, nonatomic) PopoverView *popover;
+@property (strong, nonatomic) ZGPopoverView *popover;
 
 @end
 
@@ -26,7 +26,7 @@
     [contentView reestimateSize];
     contentView.optionsSelector = self;
     
-    self.popover = [[PopoverView alloc] init];
+    self.popover = [[ZGPopoverView alloc] init];
     self.popover.contentView = contentView;
 }
 
